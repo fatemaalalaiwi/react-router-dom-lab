@@ -1,0 +1,32 @@
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #4c6daaff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a:active {
+  color: #00c8c8; /* فيروزي فاقع */
+}
